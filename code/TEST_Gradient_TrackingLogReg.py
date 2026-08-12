@@ -89,7 +89,7 @@ def generate_synthetic_data(label, M=1000):
     raise ValueError(f"Unsupported dataset label: {label!r}")
 
 
-def distribute_data(G=7, N, M=1000, label='Cubic'):
+def distribute_data(N, G=7, M=1000, label='Cubic'):
     """
     Distribute data among agents for gradient tracking.
     Parameters:
